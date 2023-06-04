@@ -23,7 +23,7 @@ public class BotInfoController {
         List<String> list=new LinkedList<>();
         list.add("sword");
         list.add("tiger");
-
+        list.add("apple");
         return list;
     }
 

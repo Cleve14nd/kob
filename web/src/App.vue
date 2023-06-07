@@ -22,25 +22,7 @@ export default{
     
     
       
-    // });
-    // $.ajax({
-    //   url:"http://127.0.0.1:3000/user/account/register/",
-    //   type:"post",
-    //   data:{
-    //     username:"zhangsan",
-    //     password:"pwzhangsan",
-    //     confirmedPassword:"pwzhangsan",
-    //   },
-    //   success(resp){
-    //     console.log(resp);
-    //     console.log("111111");
-    //   },
-    //   error(resp){
-    //     console.log(resp);
-    //     console.log("222222");
-    //   },
-      
-    // });
+    
    }
   
 }

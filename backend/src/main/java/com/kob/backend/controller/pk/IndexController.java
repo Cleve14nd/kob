@@ -14,11 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 
 @Controller
-@RequestMapping("/pk/")
 public class IndexController {
 
-    @RequestMapping("index/")
+    @RequestMapping("/pk/index/")
     public String index(){
-        return "pk/index.html";
+        return "/pk/index.html";
     }
 }

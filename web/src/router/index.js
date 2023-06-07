@@ -6,6 +6,8 @@ import RecordIndexView from '../views/record/RecordIndexView'
 import RanklistIndexView from '../views/ranklist/RanklistIndexView'
 import UserBotIndexView from '../views/user/bot/UserBotIndexView'
 import NotFound from '../views/error/NotFound'
+import UserAccountLoginView from '../views/user/account/UserAccountLoginView'
+import UserAccountRegisterView from '../views/user/account/UserAccountRegisterView'
 //此处使用import导入view中界面
 
 const routes = [
@@ -20,6 +22,15 @@ const routes = [
     name:"pk_index",
     component:PkIndexView2
     //对应的网页vue界面
+  },
+  {
+    path:"/user/account/login/",
+    name:"user_account_login",
+    component:UserAccountLoginView
+  },{
+    path:"/user/account/register/",
+    name:"user_account_register",
+    component:UserAccountRegisterView
   },
   {
     path:"/record/",
